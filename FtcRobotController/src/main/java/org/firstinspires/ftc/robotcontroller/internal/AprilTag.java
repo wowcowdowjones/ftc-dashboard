@@ -90,7 +90,7 @@ public class AprilTag extends OpMode {
 
     // ✅ Correct method placement and variable naming
     private double getDistanceFromTag(double ta) {
-        double scale = 30665.95;  // corrected spelling
+        double scale = 180.14;  // corrected spelling
         if (ta <= 0) return Double.POSITIVE_INFINITY; // avoid divide-by-zero
         return scale / ta;
     }
